@@ -11,10 +11,10 @@ So you can use crates that haven't yet updated to the latest version of
 
 ## How?
 
-* Add both versions of `raw-window-handle` in your `Cargo.toml` as such:
+* Add both versions of `raw-window-handle` to your `Cargo.toml` as such:
 ```toml
 old-raw-window-handle = { package = "raw-window-handle", version = "0.4" }
 raw-window-handle = "0.5"
 ```
 
-* Copy the code from the `lib.rs` file somewhere in your project.
+* Copy the code from [lib.rs](src/lib.rs) somewhere in your project.
