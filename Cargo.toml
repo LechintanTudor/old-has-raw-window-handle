@@ -1,0 +1,8 @@
+[package]
+name = "old-has-raw-window-handle-wrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+old-raw-window-handle = { package = "raw-window-handle", version = "0.4" }
+raw-window-handle = "0.5"
